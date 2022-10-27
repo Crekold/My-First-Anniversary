@@ -1,13 +1,13 @@
 
 let i = 0;
 let text1 = "Hey! Burina!";
-let text2 = "Do you what today is?"
+let text2 = "Do you know what today is?"
 let text3 = "Know you laa, you always forgot"
 let text4 = "It is our anniversary!"
 let speed = 100;
 
 function typeWriter(text, para){
-	if(ok == 2){
+	if(ok == 4){
 		clearInterval(typeInterval);
 	}
 	if(i < text.length){
