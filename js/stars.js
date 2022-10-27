@@ -34,7 +34,7 @@ function Star(x, y, radius, color) {
     this.color = color
     this.velocity = {
         x: (Math.random() - 0.5) * 8,
-        y: 3
+        y: 0
     }
     this.friction = 0.8
     this.gravity = 0.01
