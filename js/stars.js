@@ -90,7 +90,7 @@ function MiniStar(x, y, radius, color){
         y: (Math.random() - 0.5) * 30 
     }
     this.friction = 0.8
-    this.gravity = 0.1
+    this.gravity = 0.01
     this.ttl = 100
     this.opacity = 1
 }
