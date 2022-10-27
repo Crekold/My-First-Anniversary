@@ -33,7 +33,7 @@ function Star(x, y, radius, color) {
     this.radius = radius
     this.color = color
     this.velocity = {
-        x: (Math.random() - 0.5) * 2,
+        x: Math.random(),
         y: 0
     }
     this.friction = 0.08
@@ -86,11 +86,11 @@ Star.prototype.shatter = function(){
 function MiniStar(x, y, radius, color){
     Star.call(this, x, y, radius, color)
     this.velocity = {
-        x: (Math.random() - 0.5) * 10,
-        y: (Math.random() - 0.5) * 30 
+        x: (Math.random() - 0.5) * 1,
+        y: (Math.random() - 0.5) * 3 
     }
     this.friction = 0.08
-    this.gravity = 0.001
+    this.gravity = 0.01
     this.ttl = 100
     this.opacity = 1
 }
