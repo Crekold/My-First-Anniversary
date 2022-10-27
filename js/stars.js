@@ -33,11 +33,11 @@ function Star(x, y, radius, color) {
     this.radius = radius
     this.color = color
     this.velocity = {
-        x: (Math.random() - 0.5) * 8,
+        x: (Math.random() - 0.5) * 2,
         y: 0
     }
     this.friction = 0.08
-    this.gravity = 0.00001
+    this.gravity = 0.01
 }
 
 Star.prototype.draw = function() {
