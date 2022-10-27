@@ -36,8 +36,8 @@ function Star(x, y, radius, color) {
         x: (Math.random() - 0.5) * 8,
         y: 0
     }
-    this.friction = 0.8
-    this.gravity = 0.01
+    this.friction = 0.08
+    this.gravity = 0.001
 }
 
 Star.prototype.draw = function() {
@@ -89,8 +89,8 @@ function MiniStar(x, y, radius, color){
         x: (Math.random() - 0.5) * 10,
         y: (Math.random() - 0.5) * 30 
     }
-    this.friction = 0.8
-    this.gravity = 0.01
+    this.friction = 0.08
+    this.gravity = 0.001
     this.ttl = 100
     this.opacity = 1
 }
@@ -146,7 +146,7 @@ let stars
 let miniStars
 let backgroundStars
 let ticker = 0
-let randomSpawnRate = 30
+let randomSpawnRate = 5
 const groundHeight = 0.09 * canvas.height
 let inf = 1e9
 function init() {
