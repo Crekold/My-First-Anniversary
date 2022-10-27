@@ -37,7 +37,7 @@ function Star(x, y, radius, color) {
         y: 0
     }
     this.friction = 0.08
-    this.gravity = 0.001
+    this.gravity = 0.00001
 }
 
 Star.prototype.draw = function() {
