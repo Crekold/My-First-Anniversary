@@ -8,10 +8,14 @@
 	</head>
 
 	<body style="margin:0px">
-		<audio loop="loop" autoplay="autoplay">
-    			<source src="music/music.mp3" type="audio/mpeg" />
-			Your browser does not support the audio.
-		</audio>
+		
+		<script>
+      			function playMusic() {
+       		 	var audio = document.getElementById("audio");
+        		audio.play();
+      		}
+    		</script>
+		
 		<canvas></canvas>
 		<div id="imgTxt">
 			<span id="Txt"></span> <br />
@@ -21,7 +25,8 @@
 		<div id="heartTxt">
 			<span id="clickMe">Click!</span>
 			<div id="heart">
-				<button id="button" onclick="play()"></button>
+				<button id="button" onclick="play();playMusic();"></button>
+				<audio id="audio" src="music/music.mp3"></audio>
 			</div>
 		</div>
 		<div id="content">
