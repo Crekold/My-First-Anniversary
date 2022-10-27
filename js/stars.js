@@ -37,7 +37,7 @@ function Star(x, y, radius, color) {
         y: 3
     }
     this.friction = 0.8
-    this.gravity = 0.1
+    this.gravity = 0.01
 }
 
 Star.prototype.draw = function() {
@@ -146,7 +146,7 @@ let stars
 let miniStars
 let backgroundStars
 let ticker = 0
-let randomSpawnRate = 75
+let randomSpawnRate = 30
 const groundHeight = 0.09 * canvas.height
 let inf = 1e9
 function init() {
