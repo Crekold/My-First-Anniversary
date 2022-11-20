@@ -2,8 +2,6 @@
 let i = 0;
 let text1 = "Hey! Burina!";
 let text2 = "It is our anniversary!"
-let text3 = "Know you laa, you always forgot"
-let text4 = "It is our anniversary!"
 let speed = 100;
 
 function typeWriter(text, para){
@@ -33,12 +31,6 @@ var typeInterval;
 		}
 		else if(ok == 1){
 			typeWriter(text2, "txt2");
-		}
-		else if(ok == 2){
-			typeWriter(text2, "txt3");
-		}
-		else if(ok == 3){
-			typeWriter(text2, "txt4");
 		}
 	}, 100);
 //};
