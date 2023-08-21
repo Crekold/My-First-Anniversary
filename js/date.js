@@ -19,10 +19,10 @@ function timer(){
 	if(s < 10){
 		s = "0" + s;
 	}
-	document.getElementById("d").innerHTML = d;
-	document.getElementById("h").innerHTML = h;
-	document.getElementById("m").innerHTML = m;
-	document.getElementById("s").innerHTML = s;
+	//document.getElementById("d").innerHTML = d;
+	//document.getElementById("h").innerHTML = h;
+	//document.getElementById("m").innerHTML = m;
+	//document.getElementById("s").innerHTML = s;
 }
 
 function fadein(){
