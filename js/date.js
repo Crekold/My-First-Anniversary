@@ -24,10 +24,10 @@ function timer(){
 	document.getElementById("m").innerHTML = m;
 	document.getElementById("s").innerHTML = s;
 
-	var dNoMore = 640
-	var hNoMore = 0
-	var mNoMore = 0
-	var sNoMore = 0
+	var dNoMore = 640;
+	var hNoMore = 0;
+	var mNoMore = 0;
+	var sNoMore = 0;
 
 	document.getElementById("dNoMore").innerHTML = dNoMore;
 	document.getElementById("hNoMore").innerHTML = hNoMore;
