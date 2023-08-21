@@ -1,7 +1,7 @@
 
 let i = 0;
 let text1 = "From dream";
-let text2 = "to just memories..."
+let text2 = "to just memories...";
 let speed = 100;
 
 function typeWriter(text, para){
